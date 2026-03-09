@@ -267,11 +267,19 @@
 - name: "CPU specific Microcode update packages"
   description: "Microcode update image for AMD and Intel CPU"
   hidden: false
-  selected: true
+  selected: false
   critical: true
   packages:
     - amd-ucode
     - intel-ucode
+- name: "Drivers NVIDIA"
+  description: " driver NVIDIA."
+  expanded: false 
+  selected: false
+  packages:
+    - nvidia
+    - nvidia-utils
+    - nvidia-settings
 - name: "Firefox and language package"
   description: "Add firefox and language pack if possible"
   hidden: false
