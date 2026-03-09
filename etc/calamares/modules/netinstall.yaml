@@ -257,6 +257,7 @@
     - plasma-workspace
     - plymouth
     - plymouth-kcm
+    - plymouth-theme-core
     - powerdevil
     - qt6-wayland
     - plasma-login-manager
