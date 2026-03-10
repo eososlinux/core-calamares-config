@@ -275,7 +275,7 @@
     - intel-ucode
 - name: "Drivers NVIDIA"
   description: " driver NVIDIA."
-  expanded: false 
+  expanded: false
   selected: false
   packages:
     - nvidia
