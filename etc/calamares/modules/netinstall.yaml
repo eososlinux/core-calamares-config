@@ -15,7 +15,7 @@
   subgroups:
     - name: "GRUB"
       description: "GRUB - Most widely used boot manager"
-      selected: true
+      selected: false
       packages:
         - grub
     - name: "rEFInd"
@@ -33,6 +33,7 @@
       selected: false
       packages:
         - limine
+        - limine-snapper-sync
 
 - name: "Core Packages"
   description: "needed Core packages"
@@ -216,7 +217,7 @@
 - name: "KDE-Desktop"
   description: "KDE-Plasma Desktop - Simple by default, powerful when needed."
   hidden: false
-  selected: true
+  selected: false
   critical: true
   packages:
     - ark
@@ -243,7 +244,7 @@
     - kscreen
     - kwallet-pam
     - kwalletmanager
-    - libplasma
+    - partitionmanager
     - phonon-qt6-vlc
     - plasma-browser-integration
     - plasma-desktop
@@ -311,7 +312,7 @@
   description: "Screen reader and mouse tweaks (impaired vision)"
   hidden: false
   selected: false
-  critical: false
+  critical: true
   packages:
     - espeak-ng
     - mousetweaks
