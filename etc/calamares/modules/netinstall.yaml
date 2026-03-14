@@ -270,9 +270,9 @@
     - xsettingsd
 - name: "CPU specific Microcode update packages"
   description: "Microcode update image for AMD and Intel CPU"
-  hidden: false
+  hidden: true
   selected: false
-  critical: true
+  critical: false
   packages:
     - amd-ucode
     - intel-ucode
